@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar style code start from here */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: #3d52a0;
+    border-bottom: 4px solid #7091e6;
+    /* eta diye je kono kicho ek jaigai atke raka hoi.r top diye upore kototoko gap thakde tha bole deya hoi. */
+    position: sticky;
+    top: 0;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 10px 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold ;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+    padding: 10px;
+}
+ul li a:hover{
+    background-color: #adbbda;
+    border-radius: 5px;
+}
+nav div{
+    font-size: 30px;
+    color: white;
+}
+
+/* blog css style code start from here */
+
+.art-container{
+    width: 1100px;
+    /* eta diye ekta container er sob kicho majkane aana hoi. */
+    margin: auto;
+}
+.blog-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 100px;
+}
+.img1{
+    /* eta diye sob gula image er ekta nirdhisto height deya hoi. jar bahire image jete pare na */
+    height: 400px;
+}
+.img1 img{
+    /* eta diye directly image k bola hoi image er height upore joto deya hoise toto hoite. */
+    height: 100%;
+    width: 100%;
+}
+.art-con1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: gray;
+    padding: 30px;
+}
+.art-con2{
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 3px;
+}
+.text-con2{
+    padding: 20px 30px;
+}
+.text-con2 span{
+    color: red;
+}
+.text-con2 h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.text-con2 p{
+    margin-bottom: 30px;
+}
+.text-con2 a{
+    text-decoration: none;
+    color: grey;
+}

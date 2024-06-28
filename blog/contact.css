@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar style code start from here */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: #3d52a0;
+    border-bottom: 4px solid #7091e6;
+    /* eta diye je kono kicho ek jaigai atke raka hoi.r top diye upore kototoko gap thakde tha bole deya hoi. */
+    position: sticky;
+    top: 0;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 10px 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold ;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+    padding: 10px;
+}
+ul li a:hover{
+    background-color: #adbbda;
+    border-radius: 5px;
+}
+nav div{
+    font-size: 30px;
+    color: white;
+}
+
+/* form style code start from here */
+
+form{
+    background: linear-gradient( lightpink, rgb(255, 213, 128));
+    width: 800px;
+    margin: 80px auto;
+    padding: 40px 0;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 5px;
+}
+form h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.inp input{
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+form textarea{
+    /* eta inline tag tai margin k kaj koranor jonno eta k first e display block korte hbe */
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+.btn{
+    /* eta o inline tai display block korlam. na hole majkane aana jabe na */
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, blue, blueviolet, aqua);
+}
